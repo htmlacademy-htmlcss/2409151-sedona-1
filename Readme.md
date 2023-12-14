@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Анатолий Кошляк](https://up.htmlacademy.ru/htmlcss-individual/1/user/2409151).
-* Наставник: `Неизвестно`.
+* Наставник: [Ольга Тюлихова](https://htmlacademy.ru/profile/id523263).
 
 ---
 
