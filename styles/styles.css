@@ -37,6 +37,17 @@ body {
   text-decoration: none;
 }
 
+.menu-link-button {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #755167;
+  text-transform: uppercase;
+}
+
 .welcome {
   background-image: url(../images/divider.svg), url("../images/index-background.jpg");
   background-repeat: no-repeat;
@@ -152,7 +163,6 @@ body {
   text-align: center;
   color: #ffffff;
   background-color: #755167;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
