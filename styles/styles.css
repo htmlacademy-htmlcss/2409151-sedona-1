@@ -31,8 +31,28 @@ body {
 }
 
 .page-header {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin: 0 auto;
   color: #000000;
   background-color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  margin: 0 auto;
+}
+
+.menu-list {
+  width: 339px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-user {
+  max-width: 268px;
+  margin-left: auto;
 }
 
 .menu-link {
@@ -57,6 +77,11 @@ body {
 
 .main-container {
   flex-grow: 1;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .welcome {
