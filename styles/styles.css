@@ -14,8 +14,16 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -45,6 +53,10 @@ body {
   color: #ffffff;
   background-color: #755167;
   text-transform: uppercase;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .welcome {
