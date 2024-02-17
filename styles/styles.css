@@ -168,6 +168,8 @@ body {
   width: 400px;
   background-color: #82b3d3;
   list-style-type: none;
+  padding-top: 102px;
+  padding-bottom: 102px;
 }
 
 .photo {
@@ -209,7 +211,6 @@ body {
   text-align: center;
   color: #ffffff;
   padding: 0;
-  padding-top: 102px;
   padding-bottom: 62px;
   margin: 0 auto;
 }
@@ -219,12 +220,12 @@ body {
   text-align: center;
   color: #ffffff;
   padding: 0;
-  padding-bottom: 102px;
   margin: 0 auto;
 }
 
 .welcome-to-sedona {
   background-color: #ffffff;
+  padding: 64px 0;
 }
 
 .welcome-title {
@@ -236,7 +237,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   padding: 0;
-  padding-top: 64px;
   padding-bottom: 20px;
   margin:0 auto;
 }
@@ -249,7 +249,6 @@ body {
   text-align: center;
   color: #333333;
   padding: 0;
-  padding-bottom: 64px;
   margin: 0 auto;
 }
 
@@ -264,6 +263,8 @@ body {
   width: 400px;
   background-color: rgba(131, 179, 211, 0.12);
   list-style-type: none;
+  padding-top: 183px;
+  padding-bottom: 81px;
 }
 
 .services-item-food {
@@ -278,7 +279,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   padding: 0;
-  padding-top: 183px;
   padding-bottom: 30px;
   margin: 0 auto;
 }
@@ -288,7 +288,6 @@ body {
   text-align: center;
   color: #333333;
   padding: 0;
-  padding-bottom: 81px;
   margin: 0 auto;
 }
 
@@ -297,6 +296,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
+  padding: 96px 0;
 }
 
 .booking-title {
@@ -307,7 +307,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   padding: 0;
-  padding-top: 96px;
   padding-bottom: 20px;
   margin:0 auto;
 }
@@ -336,7 +335,6 @@ body {
   text-transform: uppercase;
   padding: 0;
   margin: 0;
-  margin-bottom: 96px;
 }
 
 .filter {
@@ -502,8 +500,6 @@ body {
   margin-bottom: 20px;
   border: 1px solid #f2f2f2;
   border-radius: 4px;
-
-
 }
 
 .hotel-card:nth-child(3n) {
@@ -652,6 +648,7 @@ body {
   line-height: 24px;
   font-family: inherit;
   border: none;
+  padding: 14px 0 14px 20px;
 }
 
 
@@ -663,7 +660,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   padding: 0;
-  /* padding-top: 96px; */
   padding-bottom: 20px;
   margin: 0 auto;
 }
@@ -688,6 +684,8 @@ body {
   background-color: #82b3d3;
   color: #ffffff;
   text-align: center;
+  border: none;
+  padding: 0;
 }
 
 .catalog-subscribe {
