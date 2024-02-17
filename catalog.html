@@ -47,7 +47,7 @@
       </header>
 
       <main class="main-inner main-container">
-        <div class="page-container">
+        <!-- <div class="page-container"> -->
           <section class="filter">
             <header class="inner-header">
               <h1 class="inner-header-title">Гостиницы Седоны</h1>
@@ -112,15 +112,19 @@
                 <div class="filter-right">
                   <fieldset class="filter-hotels-group">
                     <legend class="filter-hotels-title">Стоимость, &#x20bd;:</legend>
-                    <label class="label-cost">
-                      <input class="cost" type="number" placeholder="от">
-                    </label>
-                    <label class="label-cost">
-                      <input class="cost" type="number" placeholder="до">
-                    </label>
-                  <input class="slider" type="range">
-                    <button class="apply-button" type="submit">Применить</button>
-                    <button class="reset-button" type="reset">Сбросить</button>
+                    <div class="cost-slider-container">
+                      <label class="label-cost">
+                        <input class="cost" type="number" placeholder="от">
+                      </label>
+                      <label class="label-cost">
+                        <input class="cost" type="number" placeholder="до">
+                      </label>
+                      <input class="slider" type="range">
+                    </div>
+                    <div class="filter-button-container">
+                      <button class="apply-button" type="submit">Применить</button>
+                      <button class="reset-button" type="reset">Сбросить</button>
+                    </div>
                   </fieldset>
                 </div>
               </form>
@@ -252,7 +256,7 @@
               <button class="subscribe-button" type="submit">ПОДПИСАТЬСЯ</button>
             </form>
           </section>
-        </div>
+        <!-- </div> -->
       </main>
 
       <footer class="page-footer">
