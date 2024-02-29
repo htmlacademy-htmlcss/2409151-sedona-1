@@ -152,13 +152,49 @@ body {
   margin: 0;
 }
 
-.advantages-list {
+/*.advantages-list {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
+}*/
+
+.advantages-list {
+  display: grid;
+  grid-template-areas: "element-1 element-2 element-2"
+                       "element-3 element-4 element-5"
+                       "element-6 element-6 element-7";
+  padding: 0;
+  margin: 0;
 }
 
+.advantages-item-real-town {
+  grid-area: element-1;
+}
+
+.advantages-item-photo_1 {
+  grid-area: element-2;
+}
+
+.advantages-item-small-area {
+  grid-area: element-3;
+}
+
+.advantages-item-beautiful-road {
+  grid-area: element-4;
+}
+
+.advantages-item-few-tourists {
+  grid-area: element-5;
+}
+
+.advantages-item-photo_2 {
+  grid-area: element-6;
+}
+
+.advantages-item-devils-bridge {
+  grid-area: element-7
+}
 
 .advantages-item {
   width: 400px;
@@ -506,34 +542,35 @@ body {
 }
 
 .hotels-list {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  /* grid-template-columns: 340px 340px 340px; */
+  grid-template-columns: repeat(3, 340px);
+  gap: 20px;
   list-style-type: none;
-  flex-wrap: wrap;
   padding: 0 70px;
   margin: 0;
-  /* gap: 20px; */
 }
 
 .hotel-card {
-  box-sizing: border-box;
-  padding: 19px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 20px 150px 150px 20px;
+  grid-template-rows: 212px min-content min-content min-content min-content;
+  gap: 16px 0;
+  padding: 20px 0;
   border: 1px solid #f2f2f2;
   border-radius: 4px;
 }
 
-.hotel-card:nth-child(3n) {
-  margin-right: 0;
-}
-
-.hotel-card:last-child {
-  margin-bottom: 0;
-}
-
 .hotel-card-link {
   text-decoration: none;
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+}
+
+.hotel-card-title-link {
+  text-decoration: none;
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
 }
 
 .hotel-card-title {
@@ -541,14 +578,7 @@ body {
   line-height: 28px;
   font-weight: 700;
   color: #000000;
-  padding: 16px 0;
   margin: 0;
-}
-
-.price-container {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 16px;
 }
 
 .type-of-housing, .price {
@@ -556,13 +586,18 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
-  padding: 0;
   margin: 0;
 }
 
-.button-container {
-  display: flex;
-  margin-bottom: 16px;
+.type-of-housing {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.price {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  justify-self: end;
 }
 
 .hotel-card-button {
@@ -577,6 +612,8 @@ body {
   text-transform: uppercase;
   background-color: #755167;
   text-decoration: none;
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
 }
 
 .favourites-button {
@@ -590,6 +627,9 @@ body {
   text-transform: uppercase;
   background-color: #82b3d3;
   text-decoration: none;
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+  justify-self: end;
 }
 
 .favourites-activ-button {
@@ -603,17 +643,21 @@ body {
   text-transform: uppercase;
   background-color: #7db54f;
   text-decoration: none;
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+  justify-self: end;
 }
 
-.raiting-container {
-  display: flex;
-  padding: 10px 0;
+.stars-container {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+  align-self: center;
 }
 
 .star {
   width: 18px;
   height: 17px;
-  margin-right: 6px;
+  /* margin-right: 6px; */
   align-self: center;
 }
 
@@ -627,6 +671,8 @@ body {
   background-color: #f2f2f2;
   padding: 8px 22px;
   margin-left: auto;
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
 }
 
 .pagination {
