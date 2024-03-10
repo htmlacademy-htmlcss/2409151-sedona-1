@@ -58,6 +58,7 @@ body {
 }
 
 .menu {
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
@@ -79,6 +80,7 @@ body {
 }
 
 .menu-link {
+  /* position: relative; */
   display: block;
   padding: 0 16px;
   font-size: 20px;
@@ -88,6 +90,42 @@ body {
   text-align: center;
   color: #000000;
   text-decoration: none;
+}
+
+.menu-link-active::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 16px;
+  width: 68px;
+  height: 2px;
+  background-color: #756257;
+}
+
+.menu-link-search {
+  background-image: url(../images/search.svg);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu-link-favourites {
+  position: relative;
+  background-image: url(../images/heart.svg);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu-link-favourites::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/number.svg);
+  width: 20px;
+  height: 20px;
+  top: -10px;
 }
 
 .menu-link-button {
@@ -100,6 +138,7 @@ body {
   background-color: #755167;
   text-transform: uppercase;
   padding: 8px 34px;
+  margin-left: 20px;
 }
 
 .main-container {
