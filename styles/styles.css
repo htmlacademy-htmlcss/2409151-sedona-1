@@ -139,6 +139,7 @@ body {
   text-transform: uppercase;
   padding: 8px 34px;
   margin-left: 20px;
+  border-radius: 4px;
 }
 
 .main-container {
@@ -156,6 +157,7 @@ body {
 }
 
 .welcome {
+  display: block;
   background-image: url(../images/divider.svg), url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto, cover;
