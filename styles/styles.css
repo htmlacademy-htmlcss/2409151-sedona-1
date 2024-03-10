@@ -238,11 +238,28 @@ body {
 }
 
 .advantages-item {
+  display: flex;
+  flex-direction: column;
   width: 400px;
   background-color: #82b3d3;
   list-style-type: none;
   padding-top: 102px;
   padding-bottom: 102px;
+  align-items: center;
+}
+
+.advantages-item::before {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+  order: 2;
+  margin-bottom: 30px;
+}
+
+.advantages-item:first-child::before,
+.advantages-item:last-child::before {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .photo {
@@ -284,8 +301,8 @@ body {
   text-align: center;
   color: #ffffff;
   padding: 0;
-  padding-bottom: 62px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .advantages-subtitle {
@@ -294,6 +311,7 @@ body {
   color: #ffffff;
   padding: 0;
   margin: 0 auto;
+  order: 3;
 }
 
 .welcome-to-sedona {
