@@ -351,11 +351,34 @@ body {
 }
 
 .services-item {
+  display: flex;
+  flex-direction: column;
   width: 400px;
   background-color: rgba(131, 179, 211, 0.12);
   list-style-type: none;
-  padding-top: 183px;
+  padding-top: 81px;
   padding-bottom: 81px;
+  align-items: center;
+}
+
+.services-item::before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 72px;
+  margin-bottom: 30px;
+}
+
+.services-item:nth-child(1)::before {
+  background-image: url(../images/hous.svg);
+}
+
+.services-item:nth-child(2)::before {
+  background-image: url(../images/food.svg);
+}
+
+.services-item:nth-child(3)::before {
+  background-image: url(../images/box.svg);
 }
 
 .services-item-food {
