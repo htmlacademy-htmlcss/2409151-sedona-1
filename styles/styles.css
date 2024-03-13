@@ -836,7 +836,19 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 4px;
+}
 
+.pagination-link:hover {
+  background-color: #68A2CA;
+}
+
+.pagination-link:focus {
+  background-color: #68A2CA;
+}
+
+.pagination-link:active {
+  background-color: #82b3d3;
+  color:rgba(255, 255, 255, 0.3);
 }
 
 .pagination-current {
