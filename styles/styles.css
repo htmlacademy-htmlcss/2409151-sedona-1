@@ -1050,6 +1050,24 @@ reset-button:active {
   /* width: 142px; */
 }
 
+.social-icon {
+  fill: #83b3d3;
+}
+
+.social-icon:hover {
+  fill: #68a2ca;
+}
+
+.social-icon:focus {
+  border: none;
+  outline: none;
+  fill: #68A2CA;
+}
+
+.social-icon:active {
+  fill:rgba(104, 162, 202, 0.3)
+}
+
 .footer-social-list {
   display: flex;
   margin: 45px 42px 35px 70px;
@@ -1076,6 +1094,22 @@ reset-button:active {
 .footer-logo {
   width: 115px;
   align-self: center;
+}
+
+.logo-academy {
+  fill: #000000;
+}
+
+.logo-academy:hover {
+  fill: #756157;
+}
+
+.logo-academy:focus {
+  fill: #756157;
+}
+
+.logo-academy:active {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 .contact-phone {
