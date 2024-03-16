@@ -410,17 +410,16 @@ body {
 
 .services-item-hous::before {
   background-image: url(../images/hous.svg);
-  background-size: contain;
 }
 
 .services-item-food::before {
   background-image: url(../images/food.svg);
-  background-size: contain;
 }
 
 .services-item-souvenirs::before {
   background-image: url(../images/box.svg);
-  background-size: contain;
+  width: 65px;
+  height: 76px;
 }
 
 .services-item-food {
