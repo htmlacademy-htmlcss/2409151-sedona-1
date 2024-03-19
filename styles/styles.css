@@ -188,6 +188,7 @@ body {
 
 .welcome {
   display: block;
+  background-color: #ccd6dd;
   background-image: url(../images/divider.svg), url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto, cover;
