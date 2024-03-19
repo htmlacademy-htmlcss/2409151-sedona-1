@@ -18,7 +18,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  outline: none;
+  /* outline: none; */
 }
 
 html {
@@ -108,25 +108,14 @@ body {
   background-color: #756257;
 }
 
-/*.menu-link:nth-child(1)::before {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  left: 16px;
-  width: 68px;
-  height: 2px;
-  background-color: #756257;
+.menu-link:hover,
+.menu-link:focus {
+  color: #756257;
 }
 
-.menu-link:nth-child(3)::before {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  left: 230px;
-  width: 93px;
-  height: 2px;
-  background-color: #756257;
-}*/
+.menu-link:active {
+  color:rgba(117, 97, 87, 0.3);
+}
 
 .menu-link-search {
   background-image: url(../images/search.svg);
@@ -166,6 +155,7 @@ body {
   padding: 8px 34px;
   margin-left: 20px;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .menu-link-button:hover {
