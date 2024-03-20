@@ -521,6 +521,7 @@ body {
 
 .filter {
   padding: 35px 70px 70px 70px;
+  background-color: #ccd6dd;
   background-image: url("../images/filter.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1062,6 +1063,7 @@ reset-button:active {
 }
 
 .index-subscribe {
+  background-color: #ccd6dd;
   background-image: url("../images/subscribe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
