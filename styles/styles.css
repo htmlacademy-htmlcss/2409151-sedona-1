@@ -296,23 +296,8 @@ body {
   width: 400px;
   background-color: #82b3d3;
   list-style-type: none;
-  padding-top: 102px;
-  padding-bottom: 102px;
+  padding: 102px 85px;
   align-items: center;
-}
-
-.advantages-item::before {
-  content: "";
-  width: 60px;
-  height: 2px;
-  background-color: rgba(0, 0, 0, 0.3);
-  order: 2;
-  margin-bottom: 30px;
-}
-
-.advantages-item:first-child::before,
-.advantages-item:last-child::before {
-  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .photo {
@@ -355,7 +340,20 @@ body {
   color: #ffffff;
   padding: 0;
   margin: 0 auto;
-  margin-bottom: 30px;
+}
+
+.advantages-title::after {
+  display: block;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 30px auto;
+}
+
+.advantages-item-real-town .advantages-title::after,
+.advantages-item-devils-bridge .advantages-title::after {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .advantages-subtitle {
@@ -364,7 +362,6 @@ body {
   color: #ffffff;
   padding: 0;
   margin: 0 auto;
-  order: 3;
 }
 
 .welcome-to-sedona {
