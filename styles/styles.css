@@ -118,20 +118,28 @@ body {
 }
 
 .menu-link-search {
-  background-image: url(../images/search.svg);
   width: 20px;
   height: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
+  padding: 0;
+}
+
+.menu-link-search .icon-search {
+  fill: #000;
+}
+
+.menu-link-search:hover .icon-search,
+.menu-link-search:focus .icon-search {
+  fill: #756257;
+}
+
+.menu-link-search:active .icon-search {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 .menu-link-favourites {
   position: relative;
-  background-image: url(../images/heart.svg);
   width: 20px;
   height: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .menu-link-favourites::before {
@@ -141,6 +149,20 @@ body {
   width: 20px;
   height: 20px;
   top: -10px;
+  right: -13px
+}
+
+.menu-link-favourites .icon-favourites {
+  fill: #000;
+}
+
+.menu-link-favourites:hover .icon-favourites,
+.menu-link-favourites:focus .icon-favourites {
+  fill: #756257;
+}
+
+.menu-link-favourites:active .icon-favourites {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 .menu-link-button {
@@ -153,7 +175,7 @@ body {
   background-color: #756157;
   text-transform: uppercase;
   padding: 8px 34px;
-  margin-left: 20px;
+  margin-left: 32px;
   border-radius: 4px;
   text-decoration: none;
 }
