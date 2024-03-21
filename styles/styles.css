@@ -208,7 +208,7 @@ body {
   min-height: 100%;
 }
 
-.welcome {
+.welcome-container {
   display: block;
   background-color: #ccd6dd;
   background-image: url(../images/divider.svg), url("../images/index-background.jpg");
