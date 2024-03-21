@@ -220,6 +220,10 @@ body {
   padding-bottom: 82px;
 }
 
+.hero-text-container {
+  padding: 69px 274px 90px;
+}
+
 .hero-title {
   max-width: 620px;
   font-size: 30px;
@@ -228,8 +232,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
-  /* padding: 69px 290px 25px 290px; */
-  padding-top: 69px;
+  padding: 0;
   padding-bottom: 25px;
   margin: 0 auto;
 }
@@ -242,8 +245,7 @@ body {
   text-align: center;
   color: #333333;
   padding: 0;
-  padding-bottom: 90px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 /*.advantages-list {
