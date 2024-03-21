@@ -228,7 +228,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
-  padding: 0;
+  /* padding: 69px 290px 25px 290px; */
   padding-top: 69px;
   padding-bottom: 25px;
   margin: 0 auto;
@@ -366,7 +366,7 @@ body {
 
 .welcome-to-sedona {
   background-color: #ffffff;
-  padding: 64px 0;
+  padding: 64px 348px;
 }
 
 .welcome-title {
@@ -406,8 +406,9 @@ body {
   width: 400px;
   background-color: rgba(131, 179, 211, 0.12);
   list-style-type: none;
-  padding-top: 81px;
-  padding-bottom: 81px;
+  /* padding-top: 81px;
+  padding-bottom: 81px; */
+  padding: 81px 85px;
   align-items: center;
 }
 
@@ -462,7 +463,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
-  padding: 96px 0;
+  padding: 96px 304px;
 }
 
 .booking-title {
@@ -1066,8 +1067,7 @@ reset-button:active {
   background-size: cover;
   text-align: center;
   color: #ffffff;
-  padding-top: 96px;
-  padding-bottom: 104px;
+  padding: 96px 258px 104px 258px;
 }
 
 .label-email input {
@@ -1136,7 +1136,7 @@ reset-button:active {
 .catalog-subscribe {
   background-color: #ffffff;
   text-align: center;
-  padding: 96px 0 104px 0;
+  padding: 96px 258px 104px 258px;
 }
 
 .catalog-subscribe-title {
