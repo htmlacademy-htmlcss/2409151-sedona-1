@@ -1352,7 +1352,6 @@ reset-button:active {
   margin-left: 46px;
   margin-right: 88px;
   flex-grow: 0;
-  /* appearance: none; */
 }
 
 /* .input-field-adults::before {
@@ -1367,6 +1366,16 @@ reset-button:active {
   width: 110px;
   margin-left: 82px;
   flex-grow: 1;
+}
+
+.input-field-adults::-webkit-outer-spin-button,
+.input-field-adults::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.input-field-children::-webkit-outer-spin-button,
+.input-field-children::-webkit-inner-spin-button {
+  appearance: none;
 }
 
 .tooltip {
