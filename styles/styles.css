@@ -730,10 +730,50 @@ body {
 }
 
 .control {
+  position: relative;
+  display: block;
+}
+
+.control-mark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  background-image: url(../images/check-mark.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border-radius: 4px;
+}
+
+.control-label {
+  /* position: absolute;
+  top: 2px;
+  left: 36px; */
+  margin: 36px;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
   color: #ffffff;
+}
+
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+  background-image: url(../images/black-circle.svg);
+}
+
+.control:hover {
+  opacity: 0.6;
+}
+
+control:focus .control-mark {
+  outline: 3px solid #83b3d3;
+}
+
+control:active {
+  opacity: 0.3;
 }
 
 .button {
@@ -794,7 +834,6 @@ body {
 reset-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
-
 
 .catalog {
   background-color: #ffffff;
