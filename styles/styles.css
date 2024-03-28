@@ -1361,11 +1361,12 @@ reset-button:active {
 .field-group {
   margin: 0;
   padding: 0;
-  margin-bottom: 48px;
+  margin-bottom: 4px;
   display: flex;
 }
 
 .label-input {
+  position: relative;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -1373,7 +1374,53 @@ reset-button:active {
   padding: 12px 0;
 }
 
+.label-input-children {
+  margin-left: 84px;
+}
+
+.button-minus {
+  padding: 14px 10px;
+  margin-left: 46px;
+  border: none;
+}
+
+.button-minus .minus-icon,
+.button-plus .plus-icon {
+  fill: #756157;
+  opacity: 0.3;
+}
+
+.button-minus:hover .minus-icon,
+.button-plus:hover .plus-icon {
+  opacity: 1.0;
+}
+
+.button-minus:focus .minus-icon,
+.button-plus:focus .plus-icon {
+  opacity: 1.0;
+  outline: 3px solid #82b3d3;
+  border-radius: 4px;
+}
+
+.button-minus:active .minus-icon,
+.button-plus:active .plus-icon {
+  opacity: 0.3;
+  outline: none;
+}
+
+.button-minus-2 {
+  margin-left: 82px;
+}
+
+.button-plus {
+  padding: 14px 10px;
+  border: none;
+}
+
 .input-field {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
   margin: 0;
   margin-left: 24px;
   padding: 12px 20px;
@@ -1382,29 +1429,33 @@ reset-button:active {
   flex-grow: 1;
 }
 
+.calendar-container {
+
+}
+
+.input-field[type="text"] {
+  min-width: 16px;
+  min-height: 15px;
+  background-image: url(../images/calendar.svg);
+  background-repeat: no-repeat;
+}
+
 .input-field-departure-date {
   margin-left: 18px;
 }
 
 .input-field-adults {
-  width: 110px;
-  margin-left: 46px;
-  margin-right: 88px;
+  width: 34px;
+  margin: 0;
+  padding: 12px 10px;
   flex-grow: 0;
 }
 
-/* .input-field-adults::before {
-  display: block;
-  content: "";
-  width: 20px;
-  height: 20px;
-  background-image: url(../images/button-minus.svg);
-} */
-
 .input-field-children {
-  width: 110px;
-  margin-left: 82px;
-  flex-grow: 1;
+  width: 34px;
+  margin: 0;
+  padding: 12px 10px;
+  flex-grow: 0;
 }
 
 .input-field-adults::-webkit-outer-spin-button,
@@ -1417,8 +1468,26 @@ reset-button:active {
   appearance: none;
 }
 
+.substring {
+  display: block;
+  margin: 0;
+  margin-bottom: 23px;
+  margin-left: 157px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ff5757;
+}
+
+.substring-2 {
+  color: #333333;
+}
+
 .tooltip {
   position: absolute;
+  top: 10px;
+  right: -37px;
   margin: 0;
   margin-left: 10px;
   width: 26px;
@@ -1480,6 +1549,7 @@ reset-button:active {
   padding: 18px 256px;
   text-transform: uppercase;
   cursor: pointer;
+  margin-top: 39px;
 }
 
 .modal-container-close {
