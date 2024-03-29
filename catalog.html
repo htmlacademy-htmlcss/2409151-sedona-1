@@ -131,18 +131,20 @@
                   <legend class="filter-hotels-title">Стоимость, &#x20bd;:</legend>
                   <div class="cost-slider-container">
                     <label class="label-cost">
-                      <input class="cost cost-from" type="number" value="0" placeholder="от">
+                      <input class="cost cost-from" type="number" value="0" >
+                      <span>от</span>
                     </label>
                     <label class="label-cost">
-                      <input class="cost cost-before" type="number" value="9000" placeholder="до">
+                      <input class="cost cost-before" type="number" value="9000">
+                      <span>до</span>
                     </label>
                     <!-- <input class="slider" type="range"> -->
                     <div class="range-scale">
                       <div class="range-bar">
-                        <button class="range-toggle toggle-min">
+                        <button class="range-toggle toggle-min" type="button">
                           <span class="visually-hidden">Изменить минимальную цену.</span>
                         </button>
-                        <button class="range-toggle toggle-max">
+                        <button class="range-toggle toggle-max" type="button">
                           <span class="visually-hidden">Изменить максимальную цену.</span>
                         </button>
                       </div>
