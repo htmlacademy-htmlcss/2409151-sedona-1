@@ -273,24 +273,28 @@
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="form-search-hotel" action="https://echo.htmlacademy.ru/" method="post">
             <p class="field-group">
-              <label class="label-input" for="arrival-date">Дата Заезда:</label>
-              <input class="input-field" type="text" id="arrival-date" name="arrival-date" placeholder="27 апреля 2020">
+              <label class="label-input">Дата Заезда:
+                <input class="input-field" type="text" name="arrival-date" placeholder="27 апреля 2020">
+                <span class="calendar"></span>
+              </label>
             </p>
             <span class="substring">Мы не можем отправить вас в прошлое</span>
             <p class="field-group">
-              <label class="label-input" for="departure-date">Дата Выезда:</label>
-              <input class="input-field input-field-departure-date" type="text" id="departure-date" name="departure-date" placeholder="1 сентября 2023">
+              <label class="label-input">Дата Выезда:
+                <input class="input-field input-field-departure-date" type="text" name="departure-date" placeholder="1 сентября 2023">
+                <span class="calendar"></span>
+              </label>
             </p>
             <span class="substring substring-2">На эти даты есть свободные номера. Пока есть.</span>
             <p class="field-group">
               <label class="label-input" for="adults">Взрослые:</label>
-              <button class="button-minus">
+              <button class="button-minus" type="button">
                 <svg class="minus-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3 9V11H17V9H3Z"/>
                 </svg>
               </button>
               <input class="input-field input-field-adults" type="number" id="adults" name="adults" placeholder="2">
-              <button class="button-plus">
+              <button class="button-plus" type="button">
                 <svg class="plus-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z"/>
                   </svg>
@@ -309,13 +313,13 @@
                   </span>
                 </span>
               </span>
-              <button class="button-minus button-minus-2">
+              <button class="button-minus button-minus-2" type="button">
                 <svg class="minus-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3 9V11H17V9H3Z"/>
                 </svg>
               </button>
               <input class="input-field input-field-children" type="number" id="children" name="children" placeholder="2">
-              <button class="button-plus">
+              <button class="button-plus" type="button">
                 <svg class="plus-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z">
                   </svg>
