@@ -1410,19 +1410,9 @@ control:active .control-mark {
   padding: 12px 20px;
   border: none;
   background-color: #f2f2f2;
-}
-
-.calendar {
-  display: block;
-  position: absolute;
-  top: 17px;
-  right: 21px;
-  padding: 0;
-  min-width: 16px;
-  min-height: 15px;
-  background-image: url(../images/calendar.svg);
+  background-image: url(../images/date.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right 19px center;
 }
 
 .label-input-children {
@@ -1472,18 +1462,18 @@ control:active .control-mark {
   margin-left: 18px;
 }
 
-.input-field-adults {
-  width: 34px;
-  margin: 0;
-  padding: 12px 10px;
-  flex-grow: 0;
-}
-
+.input-field-adults,
 .input-field-children {
   width: 34px;
   margin: 0;
   padding: 12px 10px;
-  flex-grow: 0;
+  /* flex-grow: 0; */
+  border: none;
+  background-color: #f2f2f2;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
 }
 
 .input-field-adults::-webkit-outer-spin-button,
@@ -1528,6 +1518,10 @@ control:active .control-mark {
   padding: 0;
   margin: 0;
   display: block;
+}
+
+.tooltip-icon {
+  cursor: pointer;
 }
 
 .tooltip-text {
