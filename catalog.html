@@ -78,17 +78,23 @@
                   <ul class="filter-hotels-list">
                     <li class="filter-hotels-item">
                       <label class="control">
-                        <input class="control-input" type="checkbox" name="pool" checked>Бассейн
+                        <input class="visually-hidden control-input" type="checkbox" name="pool" checked>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Бассейн</span>
                       </label>
                     </li>
                     <li class="filter-hotels-item">
                       <label class="control">
-                        <input class="control-input" type="checkbox" name="parking" checked>Парковка
+                        <input class="visually-hidden control-input" type="checkbox" name="parking" checked>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Парковка</span>
                       </label>
                     </li>
                     <li class="filter-hotels-item">
                       <label class="control">
-                        <input class="control-input" type="checkbox" name="WiFi">Wi-Fi
+                        <input class="visually-hidden control-input" type="checkbox" name="WiFi">
+                        <span class="control-mark"></span>
+                        <span class="control-label">Wi-Fi</span>
                       </label>
                     </li>
                   </ul>
@@ -98,17 +104,23 @@
                   <ul class="filter-hotels-list">
                     <li class="filter-hotels-item">
                       <label class="control">
-                        <input class="control-input" type="radio" name="type-of-housing" value="hotel" checked>Гостиница
+                        <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="hotel" checked>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Гостиница</span>
                       </label>
                     </li>
                     <li class="filter-hotels-item">
                       <label class="control">
-                        <input class="control-input" type="radio" name="type-of-housing" value="motel">Мотель
+                        <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="motel">
+                        <span class="control-mark"></span>
+                        <span class="control-label">Мотель</span>
                       </label>
                     </li>
                     <li class="filter-hotels-item">
                       <label class="control">
-                        <input class="control-input" type="radio" name="type-of-housing" value="apartment">Апартаменты
+                        <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="apartment">
+                        <span class="control-mark"></span>
+                        <span class="control-label">Апартаменты</span>
                       </label>
                     </li>
                   </ul>
@@ -119,12 +131,24 @@
                   <legend class="filter-hotels-title">Стоимость, &#x20bd;:</legend>
                   <div class="cost-slider-container">
                     <label class="label-cost">
-                      <input class="cost-from" type="number" placeholder="от">
+                      <input class="cost cost-from" type="number" name="cost-from" value="0" >
+                      <span>от</span>
                     </label>
                     <label class="label-cost">
-                      <input class="cost-before" type="number" placeholder="до">
+                      <input class="cost cost-before" type="number" name="cost-before" value="9000">
+                      <span>до</span>
                     </label>
-                    <input class="slider" type="range">
+                    <!-- <input class="slider" type="range"> -->
+                    <div class="range-scale">
+                      <div class="range-bar">
+                        <button class="range-toggle toggle-min" type="button">
+                          <span class="visually-hidden">Изменить минимальную цену.</span>
+                        </button>
+                        <button class="range-toggle toggle-max" type="button">
+                          <span class="visually-hidden">Изменить максимальную цену.</span>
+                        </button>
+                      </div>
+                    </div>
                   </div>
                   <div class="filter-button-container">
                     <button class="button apply-button" type="submit">Применить</button>
