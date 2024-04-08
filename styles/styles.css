@@ -804,7 +804,7 @@ body {
   background-image: url(../images/black-circle.svg);
 }
 
-.control-input:hover {
+.control:hover {
   opacity: 0.6;
 }
 
