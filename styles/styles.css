@@ -1050,11 +1050,11 @@ body {
 }
 
 .favourites-button:hover {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .favourites-button:focus {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .favourites-button:active {
@@ -1079,15 +1079,15 @@ body {
 }
 
 .favourites-active-button:hover {
-  background-color: #6C9E42;
+  background-color: #6c9e42;
 }
 
 .favourites-active-button:focus {
-  background-color: #6C9E42;
+  background-color: #6c9e42;
 }
 
 .favourites-active-button:active {
-  background-color: #6C9E42;
+  background-color: #6c9e42;
   color:rgba(255, 255, 255, 0.3);
 }
 
@@ -1145,11 +1145,11 @@ body {
 }
 
 .pagination-link[href]:hover {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .pagination-link:focus {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .pagination-link:active {
