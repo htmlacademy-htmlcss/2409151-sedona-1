@@ -187,7 +187,7 @@ body {
 
 .menu-link-button:active {
   background-color: #756157;
- color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 
 }
 
@@ -208,7 +208,7 @@ body {
 .welcome-container {
   display: block;
   background-color: #ccd6dd;
-  background-image: url(../images/divider.svg), url("../images/index-background.jpg");
+  background-image: url("../images/divider.svg"), url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto, cover;
   background-position: center bottom -1px, center;
@@ -418,15 +418,15 @@ body {
 }
 
 .services-item-hous::before {
-  background-image: url(../images/hous.svg);
+  background-image: url("../images/hous.svg");
 }
 
 .services-item-food::before {
-  background-image: url(../images/food.svg);
+  background-image: url("../images/food.svg");
 }
 
 .services-item-souvenirs::before {
-  background-image: url(../images/box.svg);
+  background-image: url("../images/box.svg");
   width: 65px;
   height: 76px;
 }
@@ -545,7 +545,7 @@ body {
 
 .breadcrumbs-link {
   display: block;
-  background-image: url(../images/breadcrumbs-home.svg);
+  background-image: url("../images/breadcrumbs-home.svg");
   background-repeat: no-repeat;
   width: 13px;
   height: 13px;
@@ -563,7 +563,7 @@ body {
 .breadcrumbs-hotels::before {
   display: inline-block;
   content: "";
-  background-image: url(../images/breadcrumbs-arrow.svg);
+  background-image: url("../images/breadcrumbs-arrow.svg");
   background-repeat: no-repeat;
   width: 8px;
   height: 11px;
@@ -760,7 +760,7 @@ body {
   width: 20px;
   height: 20px;
   background-color: #ffffff;
-  background-image: url(../images/check-mark.svg);
+  background-image: url("../images/check-mark.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: none;
@@ -780,7 +780,7 @@ body {
 }
 
 .control-input[type="checkbox"]:checked + .control-mark{
-  background-image: url(../images/check-mark.svg);
+  background-image: url("../images/check-mark.svg");
 }
 
 .control-input[type="radio"] + .control-mark{
@@ -790,7 +790,7 @@ body {
 
 .control-input[type="radio"]:checked + .control-mark{
   border-radius: 50%;
-  background-image: url(../images/black-circle.svg);
+  background-image: url("../images/black-circle.svg");
 }
 
 .control:hover {
@@ -1425,7 +1425,7 @@ body {
   padding: 12px 20px;
   border: none;
   background-color: #f2f2f2;
-  background-image: url(../images/date.svg);
+  background-image: url("../images/date.svg");
   background-repeat: no-repeat;
   background-position: right 19px center;
 }
@@ -1562,7 +1562,7 @@ body {
 
 .tooltip-text:after {
   content:'';
-  background-image: url(../images/tooltip-triangle.svg);
+  background-image: url("../images/tooltip-triangle.svg");
   width: 19px;
   height: 9px;
   position:absolute;
