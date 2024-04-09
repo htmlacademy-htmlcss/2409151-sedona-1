@@ -24,7 +24,6 @@ html {
   height: 100%;
 }
 
-
 body {
   min-width: 1200px;
   margin: 0;
@@ -151,7 +150,7 @@ body {
 }
 
 .menu-link-favourites .icon-favourites {
-  fill: #000;
+  fill: #000000;
 }
 
 .menu-link-favourites:hover .icon-favourites,
@@ -646,7 +645,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-  color: #000;
+  color: #000000;
   border: none;
   outline: none;
   background-color: #f2f2f2;
@@ -700,7 +699,7 @@ body {
   position: relative;
   width: 226px;
   height: 4px;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .range-toggle {
@@ -932,7 +931,7 @@ body {
 .button-cards:hover,
 .button-big-card:hover,
 .button-list:hover {
-  border: 2px solid #000;
+  border: 2px solid #000000;
 }
 
 .button-cards:focus,
@@ -944,7 +943,7 @@ body {
 .button-cards:active,
 .button-big-card:active,
 .button-list:active {
-  border: 2px solid #000;
+  border: 2px solid #000000;
 }
 
 .hotels-list {
