@@ -258,7 +258,7 @@ body {
   grid-area: element-1;
 }
 
-.advantages-item-photo_1 {
+.advantages-item-photo-1 {
   grid-area: element-2;
 }
 
@@ -274,7 +274,7 @@ body {
   grid-area: element-5;
 }
 
-.advantages-item-photo_2 {
+.advantages-item-photo-2 {
   grid-area: element-6;
 }
 
@@ -1186,7 +1186,7 @@ body {
 
 .index-subscribe {
   background-color: #ccd6dd;
-  background-image: url("../images/subscribe.png");
+  background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
