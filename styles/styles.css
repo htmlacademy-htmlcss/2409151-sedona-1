@@ -396,7 +396,6 @@ body {
 .services-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding: 0;
   margin: 0;
 }
