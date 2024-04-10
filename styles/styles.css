@@ -198,7 +198,7 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
-  box-shadow: 0 0 15px 0 #00000033;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -294,6 +294,8 @@ body {
 
 .photo {
   display: block;
+  object-fit: cover;
+  height: 100%;
 }
 
 .advantages-item-photo {
@@ -922,15 +924,32 @@ body {
   border: 2px solid #3f5e72;
 }
 
-.button-cards,
-.button-big-card,
-.button-list {
+.button-view {
   width: 48px;
   height: 48px;
   border: 2px solid #e5e5e5;
+  border-radius: 4px;
   outline: none;
   margin-right: 8px;
   padding: 12px 14px;
+}
+
+.button-cards {
+  background-image: url("../images/icon-cards.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button-big-card {
+  background-image: url("../images/icon-big-card.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button-list {
+  background-image: url("../images/icon-list.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .button-cards-active {
