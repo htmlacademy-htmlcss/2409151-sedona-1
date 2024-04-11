@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Гостиницы Седоны</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <div class="page-container">
       <header class="page-header">
         <a class="logo-link-sedona" href="index.html">
-          <img class="logo" src="images/logo.svg" alt="Логотип города Седона">
+          <img class="logo" width="140" height="70" src="images/logo.svg" alt="Логотип города Седона">
         </a>
         <nav class="menu">
           <ul class="menu-list">
@@ -65,7 +66,7 @@
                 </a>
               </li>
               <li class="breadcrumbs-item">
-                <span class="breadcrumbs-hotels">Гостиницы</a>
+                <span class="breadcrumbs-hotels">Гостиницы</span>
               </li>
             </ul>
           </header>
@@ -138,7 +139,6 @@
                       <input class="cost cost-before" type="number" name="cost-before" value="9000">
                       <span>до</span>
                     </label>
-                    <!-- <input class="slider" type="range"> -->
                     <div class="range-scale">
                       <div class="range-bar">
                         <button class="range-toggle toggle-min" type="button">
@@ -165,25 +165,14 @@
             <select class="select-control" aria-label="Сортировка">
               <option value="cheap">Сначала дешевые</option>
             </select>
-            <a class="button button-cards" href="#">
+            <a class="button-view button-cards button-cards-active" href="#">
               <span class="visually-hidden">Показать карточки</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="none">
-                <path fill="#000" d="M4 0H0v6h4V0ZM16 0h-4v6h4V0ZM10 0H6v6h4V0ZM4 8H0v6h4V8ZM16 8h
-                -4v6h4V8ZM10 8H6v6h4V8Z"/>
-              </svg>
             </a>
-            <a class="button button-big-card" href="#">
+            <a class="button-view button-big-card" href="#">
               <span class="visually-hidden">Показать большую карточку</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="none">
-                <path fill="#000" d="M16 12H0v2h16v-2ZM14 2v6H2V2h12Zm2-2H0v10h16V0Z"/>
-              </svg>
             </a>
-            <a class="button button-list" href="#">
+            <a class="button-view button-list" href="#">
               <span class="visually-hidden">Показать список</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="none">
-                <path fill="#000" d="M2 0H0v2h2V0ZM16 0H4v2h12V0ZM2 4H0v2h2V4ZM16 4H4v2h12V4ZM2
-                8H0v2h2V8ZM16 8H4v2h12V8ZM2 12H0v2h2v-2ZM16 12H4v2h12v-2Z"/>
-              </svg>
             </a>
           </div>
             <ul class="hotels-list">
@@ -199,10 +188,10 @@
                 <a class="button hotel-card-button" href="#">Подробнее</a>
                 <a class="button favourites-button" href="#">В избранное</a>
                 <div class="stars-container">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
                 </div>
                 <span class="raiting">РЕЙТИНГ: 8,5</span>
               </li>
@@ -218,10 +207,10 @@
                 <a class="button hotel-card-button" href="#">Подробнее</a>
                 <a class="button favourites-active-button" href="#">В избранном</a>
                 <div class="stars-container">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
                 </div>
                 <span class="raiting">РЕЙТИНГ: 9,2</span>
               </li>
@@ -237,9 +226,9 @@
                 <a class="button hotel-card-button" href="#">Подробнее</a>
                 <a class="button favourites-button" href="#">В избранное</a>
                 <div class="stars-container">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
                 </div>
                 <span class="raiting">РЕЙТИНГ: 6,9</span>
               </li>
@@ -255,8 +244,8 @@
                 <a class="button hotel-card-button" href="#">Подробнее</a>
                 <a class="button favourites-button" href="#">В избранное</a>
                 <div class="stars-container">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
-                  <img class="star" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
+                  <img class="star" width="18" height="17" src="images/star.svg" alt="Рейтинг гостиницы в виде звезды">
                 </div>
                 <span class="raiting">РЕЙТИНГ: 5,0</span>
               </li>
@@ -287,7 +276,7 @@
           <p class="subscribe-subtitle catalog-subscribe-subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
             <label class="label-email">
-              <input type="email" name="email" placeholder="Ваш e-mail">
+              <input type="email" name="email" placeholder="Ваш e-mail" required>
             </label>
             <button class="subscribe-button" type="submit">ПОДПИСАТЬСЯ</button>
           </form>
@@ -339,9 +328,11 @@
           </ul>
         </section>
         <section class="footer-contacts">
-          <a class="contact-phone" href="tel:+78128121212">+7(812)812-12-12</a>
+          <h2 class="visually-hidden">Контактный телефон</h2>
+          <a class="contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
         </section>
         <section class="footer-logo">
+          <h2 class="visually-hidden">Логотип Академии</h2>
           <a class="link-logo-academy" href="https://htmlacademy.ru/">
             <svg class="logo-academy" xmlns="http://www.w3.org/2000/svg" width="115" height="34" fill="none">
               <path d="M0 13.256v2.6h2.5v-2.6H0ZM11.6 4.856c-1.6 0-2.8.7-3.6 1.7h-.1v-6.2h-2v15.5h2v

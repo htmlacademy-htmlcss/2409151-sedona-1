@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="styles/styles.CSS" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/styles.CSS">
   </head>
   <body>
     <div class="page-container">
       <header class="page-header">
         <a class="logo-link-sedona" href="#">
-          <img class="logo" src="images/logo.svg" alt="Логотип города Седона" />
+          <img class="logo" width="140" height="70" src="images/logo.svg" alt="Логотип города Седона">
         </a>
         <nav class="menu">
           <ul class="menu-list">
@@ -58,8 +59,10 @@
             <img
               class="welcome-image"
               src="images/welcome.svg"
+              width="458"
+              height="352"
               alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks"
-            />
+            >
           </div>
           <div class="hero-text-container">
             <h1 class="hero-title">
@@ -79,14 +82,14 @@
                 Седона — не аттракцион для туристов, там течёт своя жизнь
               </p>
             </li>
-            <li class="advantages-item-photo advantages-item-photo_1">
+            <li class="advantages-item-photo advantages-item-photo-1">
               <img
                 class="photo"
                 src="images/photo-1.jpg"
                 width="800"
                 height="385"
                 alt="Дома городка Седона на фоне гор"
-              />
+              >
             </li>
             <li class="advantages-item advantages-item-small-area">
               <h3 class="advantages-title">Небольшая площадь</h3>
@@ -106,17 +109,17 @@
                 Большинство едет в Гранд Каньон и толпится там
               </p>
             </li>
-            <li class="advantages-item-photo advantages-item-photo_2">
+            <li class="advantages-item-photo advantages-item-photo-2">
               <img
                 class="photo"
                 src="images/photo-2.jpg"
                 width="800"
                 height="385"
                 alt="Вид на Большой Каньон"
-              />
+              >
             </li>
             <li class="advantages-item advantages-item-devils-bridge">
-              <h3 class="advantages-title">Там есть мост дьявола</h3>
+              <h3 class="advantages-title">Там есть<br> мост дьявола</h3>
               <p class="advantages-subtitle">
                 Да, по нему можно пройти! Если вы осмелитесь, разумеется
               </p>
@@ -136,20 +139,20 @@
             <li class="services-item services-item-hous">
               <h3 class="services-title">ЖИЛЬЁ</h3>
               <p class="services-subtitle">
-                Рекомендуем пожить в настоящем мотеле, всё как в кино!
+                Рекомендуем пожить<br>в настоящем мотеле,<br> всё как в кино!
               </p>
             </li>
             <li class="services-item services-item-food">
               <h3 class="services-title">ЕДА</h3>
               <p class="services-subtitle">
-                Всегда заказывайте топовый фирменный бургер, вы не
+                Всегда заказывайте<br>топовый фирменный бургер, вы не
                 разочаруетесь!
               </p>
             </li>
             <li class="services-item services-item-souvenirs">
               <h3 class="services-title">СУВЕНИРЫ</h3>
               <p class="services-subtitle">
-                Не только китайского, но и настоящего местного производства!
+                Не только китайского,<br>но и настоящего местного производства!
               </p>
             </li>
           </ul>
@@ -157,7 +160,7 @@
         <section class="booking">
           <h2 class="booking-title">Заинтересовались?</h2>
           <p class="booking-subtitle">
-            Укажите предполагаемые даты поездки, и мы покажем вам лучшие
+            Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие
             предложения гостиниц в Седоне
           </p>
           <button class="booking-button" type="button">
@@ -175,7 +178,7 @@
             method="post"
           >
             <label class="label-email">
-              <input type="email" name="email" placeholder="Ваш e-mail" />
+              <input type="email" name="email" placeholder="Ваш e-mail" required>
             </label>
             <button class="subscribe-button" type="submit">ПОДПИСАТЬСЯ</button>
           </form>
@@ -227,9 +230,11 @@
           </ul>
         </section>
         <section class="footer-contacts">
-          <a class="contact-phone" href="tel:+78128121212">+7(812)812-12-12</a>
+          <h2 class="visually-hidden">Контактный телефон</h2>
+          <a class="contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
         </section>
         <section class="footer-logo">
+          <h2 class="visually-hidden">Логотип Академии</h2>
           <a class="link-logo-academy" href="https://htmlacademy.ru/">
             <svg class="logo-academy" xmlns="http://www.w3.org/2000/svg" width="115" height="34" fill="none">
               <path d="M0 13.256v2.6h2.5v-2.6H0ZM11.6 4.856c-1.6 0-2.8.7-3.6 1.7h-.1v-6.2h-2v15.5h2v
