@@ -64,7 +64,6 @@ body {
   position: relative;
   display: flex;
   justify-content: space-between;
-  /* padding: 14px 0; */
   padding: 0;
   flex-grow: 1;
   align-items: center;
@@ -82,7 +81,6 @@ body {
 .menu-link {
   position: relative;
   display: block;
-  /* padding: 0 16px; */
   padding: 20px 16px;
   font-size: 20px;
   font-style: normal;
@@ -96,7 +94,6 @@ body {
 .menu-link-active::before {
   position: absolute;
   content: "";
-  /* bottom: -20px; */
   bottom: 0;
   left: 16px;
   width: calc(100% - 32px);
@@ -170,6 +167,7 @@ body {
 }
 
 .menu-link-button {
+  max-width: 160px;
   display: block;
   font-size: 16px;
   line-height: 20px;
@@ -251,43 +249,6 @@ body {
   padding: 0;
   margin: 0 auto;
 }
-
-/* .advantages-list {
-  display: grid;
-  grid-template-areas: "element-1 element-2 element-2"
-                       "element-3 element-4 element-5"
-                       "element-6 element-6 element-7";
-  padding: 0;
-  margin: 0;
-}
-
-.advantages-item-real-town {
-  grid-area: element-1;
-}
-
-.advantages-item-photo-1 {
-  grid-area: element-2;
-}
-
-.advantages-item-small-area {
-  grid-area: element-3;
-}
-
-.advantages-item-beautiful-road {
-  grid-area: element-4;
-}
-
-.advantages-item-few-tourists {
-  grid-area: element-5;
-}
-
-.advantages-item-photo-2 {
-  grid-area: element-6;
-}
-
-.advantages-item-devils-bridge {
-  grid-area: element-7
-} */
 
 .advantages-list {
   display: flex;
