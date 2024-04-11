@@ -245,7 +245,7 @@ body {
   margin: 0 auto;
 }
 
-.advantages-list {
+/* .advantages-list {
   display: grid;
   grid-template-areas: "element-1 element-2 element-2"
                        "element-3 element-4 element-5"
@@ -280,6 +280,13 @@ body {
 
 .advantages-item-devils-bridge {
   grid-area: element-7
+} */
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
 }
 
 .advantages-item {
@@ -430,6 +437,7 @@ body {
   background-image: url("../images/box.svg");
   width: 65px;
   height: 76px;
+  margin-bottom: 26px;
 }
 
 .services-item-food {
@@ -444,7 +452,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   padding: 0;
-  padding-bottom: 30px;
+  padding-bottom: 32px;
   margin: 0 auto;
 }
 
@@ -1235,7 +1243,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   padding: 0;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
   margin: 0 auto;
 }
 
@@ -1292,11 +1300,20 @@ body {
 
 .page-footer {
   display: flex;
+  justify-content: space-between;
+  padding: 30px 70px 30px 70px;
+}
+
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4px;
 }
 
 .footer-social-list {
   display: flex;
-  margin: 45px 42px 35px 70px;
+  align-items: center;
+  margin: 0;
   padding: 0;
 }
 
@@ -1328,12 +1345,13 @@ body {
   width: 720px;
   justify-content: space-around;
   align-self: center;
-  margin-right: 39px;
+  /* margin-right: 39px; */
 }
 
 .footer-logo {
   width: 115px;
   align-self: center;
+  padding-top: 6px;
 }
 
 .link-logo-academy .logo-academy {
