@@ -794,6 +794,10 @@ body {
   border-radius: 4px;
 }
 
+/* .button:disabled {
+  background-color: #e5e5e5;
+} */
+
 .apply-button {
   width: 191px;
   font-family: inherit;
@@ -847,6 +851,11 @@ body {
 
 .reset-button:active {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.reset-button:disabled {
+  color: rgba(255, 255, 255, 0.1);
+  cursor: default;
 }
 
 .catalog {
@@ -1033,10 +1042,13 @@ body {
   width: 140px;
   padding: 8px 26px;
   margin-right: 20px;
+  font-family: inherit;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
   color: #ffffff;
+  border: none;
+  cursor: pointer;
   text-transform: uppercase;
   background-color: #756157;
   text-decoration: none;
@@ -1055,6 +1067,13 @@ body {
 .hotel-card-button:active {
   background-color: #756157;
   color:rgba(255, 255, 255, 0.3);
+}
+
+.hotel-card-button:disabled {
+  background-color: #e5e5e5;
+  border: none;
+  font-family: inherit;
+  cursor: default;
 }
 
 .favourites-button {
