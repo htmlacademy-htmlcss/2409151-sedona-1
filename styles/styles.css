@@ -884,6 +884,7 @@ body {
   box-sizing: border-box;
   margin-right: 70px;
   padding-left: 19px;
+  background-color: #ffffff;
   background-image: url("../images/arrow-down.svg");
   background-repeat: no-repeat;
   background-position: right 17px center;
