@@ -117,7 +117,7 @@ body {
 }
 
 .menu-link-search .icon-search {
-  fill: #000;
+  fill: #000000;
 }
 
 .menu-link-search:hover .icon-search,
@@ -811,11 +811,11 @@ body {
 }
 
 .apply-button:hover {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .apply-button:focus {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .apply-button:active {
@@ -1394,7 +1394,7 @@ body {
 }
 
 .modal-close-button .icon-close {
-  fill: #000;
+  fill: #000000;
 }
 
 .modal-title {
