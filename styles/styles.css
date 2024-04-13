@@ -1451,6 +1451,7 @@ body {
   padding: 12px 10px;
   margin-left: 46px;
   border: none;
+  background-color: #f2f2f2;
 }
 
 .button-minus .minus-icon,
@@ -1484,6 +1485,7 @@ body {
 .button-plus {
   padding: 12px 10px;
   border: none;
+  background-color: #f2f2f2;
 }
 
 .input-field-departure-date {
