@@ -794,10 +794,6 @@ body {
   border-radius: 4px;
 }
 
-/* .button:disabled {
-  background-color: #e5e5e5;
-} */
-
 .apply-button {
   width: 191px;
   font-family: inherit;
@@ -1622,7 +1618,7 @@ body {
 }
 
 .tooltip-text:after {
-  content:'';
+  content: "";
   background-image: url("../images/tooltip-triangle.svg");
   width: 19px;
   height: 9px;
