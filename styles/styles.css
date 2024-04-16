@@ -148,7 +148,8 @@ body {
   content: "";
   background-image: url(../images/number.svg);
   background-repeat: no-repeat;
-  width: 20px;
+  background-position-x: 25px;
+  width: 45px;
   height: 31px;
   top: -11px;
   right: -9px;
