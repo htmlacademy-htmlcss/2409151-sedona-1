@@ -147,8 +147,9 @@ body {
   position: absolute;
   content: "";
   background-image: url(../images/number.svg);
+  background-repeat: no-repeat;
   width: 20px;
-  height: 20px;
+  height: 31px;
   top: -11px;
   right: -9px;
 }
@@ -490,6 +491,11 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.booking-button:disabled {
+  background-color: #e5e5e5;
+  cursor: default;
+}
+
 .filter {
   padding: 35px 70px 70px 70px;
   background-color: #ccd6dd;
@@ -698,6 +704,11 @@ body {
   outline: 2px solid #83b3d3;
 }
 
+.range-toggle:disabled {
+  background-color: #e5e5e5;
+  cursor: default;
+}
+
 .toggle-max {
   right: 0;
 }
@@ -821,6 +832,11 @@ body {
 .apply-button:active {
   background-color: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.apply-button:disabled {
+  background-color: #e5e5e5;
+  cursor: default;
 }
 
 .reset-button {
@@ -1294,6 +1310,11 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.subscribe-button:disabled {
+  background-color: #e5e5e5;
+  cursor: default;
+}
+
 .catalog-subscribe {
   background-color: #ffffff;
   text-align: center;
@@ -1439,6 +1460,15 @@ body {
   fill: #000000;
 }
 
+.modal-close-button:disabled {
+  background-color: #e5e5e5;
+  cursor: default;
+}
+
+.modal-close-button:disabled .icon-close {
+  fill: #ffffff;
+}
+
 .modal-title {
   padding: 0;
   margin: 0;
@@ -1528,6 +1558,16 @@ body {
   padding: 12px 10px;
   border: none;
   background-color: #f2f2f2;
+}
+
+.button-minus:disabled,
+.button-plus:disabled {
+  background-color: #e5e5e5;
+}
+
+.button-minus:disabled .minus-icon,
+.button-plus:disabled .plus-icon {
+  fill: #ffffff;
 }
 
 .input-field-departure-date {
