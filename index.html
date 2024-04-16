@@ -47,7 +47,7 @@
               </a>
             </li>
             <li class="menu-item">
-              <a class="menu-link-button" href="#">Хочу сюда!</a>
+              <a class="button menu-link-button" href="#">Хочу сюда!</a>
             </li>
           </ul>
         </nav>
@@ -163,7 +163,7 @@
             Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие
             предложения гостиниц в Седоне
           </p>
-          <button class="booking-button" type="button">
+          <button class="button booking-button" type="button">
             ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
           </button>
         </section>
@@ -180,7 +180,7 @@
             <label class="label-email">
               <input type="email" name="email" placeholder="Ваш e-mail" required>
             </label>
-            <button class="subscribe-button" type="submit">ПОДПИСАТЬСЯ</button>
+            <button class="button subscribe-button" type="submit">ПОДПИСАТЬСЯ</button>
           </form>
         </section>
       </main>
@@ -214,7 +214,6 @@
                   14.625L9.58705 12.6915L13.7229 15.7464C14.4855 16.1664 15.0332 15.9506 15.2229 15.0405L17.9379
                   2.2453C18.2158 1.13107 17.5126 0.626562 16.785 0.955705Z"/>
                 </svg>
-
               </a>
             </li>
             <li class="footer-social-item">
@@ -261,7 +260,6 @@
         </section>
       </footer>
     </div>
-    <!-- <div class="modal-container"> -->
     <div class="modal-container modal-container-close">
       <div class="modal modal-search-hotel">
         <button class="modal-close-button" type="button">
@@ -293,12 +291,14 @@
                 <svg class="minus-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3 9V11H17V9H3Z"/>
                 </svg>
+                <span class="visually-hidden">Кнопка минус</span>
               </button>
-              <input class="input-field-adults" type="number" id="adults" name="adults" value="2" placeholder="0">
+              <input class="input-field-adults" type="text" id="adults" name="adults" value="2" placeholder="0">
               <button class="button-plus" type="button">
                 <svg class="plus-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z"/>
                   </svg>
+                  <span class="visually-hidden">Кнопка плюс</span>
               </button>
               <span class="label-input">
                 <label class="label-input label-input-children" for="children">Дети:</label>
@@ -314,16 +314,18 @@
                   </span>
                 </span>
               </span>
-              <button class="button-minus button-minus-2" type="button">
+              <button class="button-minus button-minus-children" type="button">
                 <svg class="minus-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3 9V11H17V9H3Z"/>
                 </svg>
+                <span class="visually-hidden">Кнопка минус</span>
               </button>
-              <input class="input-field-children" type="number" id="children" name="children" value="2" placeholder="0">
+              <input class="input-field-children" type="text" id="children" name="children" value="2" placeholder="0">
               <button class="button-plus" type="button">
                 <svg class="plus-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z"/>
                 </svg>
+                <span class="visually-hidden">Кнопка плюс</span>
               </button>
             </p>
             <button class="button search-button" type="submit">Найти</button>
